@@ -1,6 +1,6 @@
 body {
     background: #e9e8e7;
-    background-image: url("/home/a/Documents/ua/cmput404/assignments/3/CMPUT404-assignment-css-hell/gutenberg/img/flower.jpg");
+    background-image: url("img/flower.jpg");
 }
 
 pre {
