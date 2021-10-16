@@ -1,0 +1,48 @@
+body {
+    background: #e9e8e7;
+    background-image: url("/home/a/Documents/ua/cmput404/assignments/3/CMPUT404-assignment-css-hell/gutenberg/img/flower.jpg");
+}
+
+pre {
+    background-color: whitesmoke;
+}
+
+p {
+    background-color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4, h5 {
+    background-color:lavender;
+}
+
+div {
+    background-color:rgb(255, 255, 255);
+}
+
+div.c3 {
+    font-weight: 100;
+}
+
+tr {
+    background-color:whitesmoke;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    transform: scaleX(-1);
+}
+
+div.contents {
+    text-align: center;
+}
+
+TABLE.illus {
+    margin: auto;
+}
