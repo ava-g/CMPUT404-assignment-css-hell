@@ -1,0 +1,77 @@
+body {
+    height: 200px;
+    background-color: rgb(255, 209, 243); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(248, 212, 212), #c5edff);
+}
+
+header {
+    padding: 0em;
+    text-align: center;
+    color:rebeccapurple;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:rebeccapurple;
+}
+
+/* menu list stype */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 60%;
+    color:rebeccapurple;
+}
+
+aside {
+    padding: 20px;
+    width: 30%;
+    border-width: 0.1em;
+    color:rebeccapurple;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+#linkedin {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+    margin-left: -106em;
+}
+
+#github {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+#art {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}

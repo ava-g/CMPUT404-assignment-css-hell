@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: conic-gradient(
+		from 45deg,
+		#5d0281 0,
+		#630281 90deg,
+		#260037 90deg,
+		#310037 180deg,
+		#b92fc5 180deg,
+		#8b0069 270deg,
+		#fe0ffe 270deg,
+		#a60ffe 360deg
+	);
+	background-size: 1em 1em;
+	height: 100vh;
+}
+
+header {
+    background-color: hotpink;
+    padding: 1em;
+    text-align: center;
+    color:whitesmoke;
+}
+
+/* navigation menu style*/
+nav {
+    float: left;
+    width: 180px;
+    margin-bottom: 100%;
+    background: lightpink;
+    height:fit-content;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* alter link color on hover*/
+li a:hover {
+    background-color:rebeccapurple;
+}
+
+img.contact:hover {
+    background-color:skyblue;
+}
+
+/* menu list stype */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: beige;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 60%;
+    background-color: mintcream;
+    font-family:sans-serif;
+}
+
+aside {
+    display: inline-block;
+    padding: 20px;
+    width: 30%;
+    border-width: 0.1em;
+    border-style:dashed;
+    border-width: 0.5em;
+    border-color: rosybrown;
+    background-color: thistle;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    position: fixed;
+    padding-left: 1em;
+    height: 50px;
+    background-color: mistyrose;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: orchid;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+h1 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+ul {
+    list-style-type: disc;
+    overflow: hidden;
+}
+
+li {
+    display: list-item;
+}
+
+marquee {
+    font-family: monospace;
+    color:skyblue;
+    font-weight: bold;
+}
+
+#about {
+    background-color:cornsilk;
+}
+
+#experience {
+    background-color: antiquewhite;
+}
+
+#skills {
+    background-color:lavender;
+}
+
+#linkedin {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+    margin-left: -106em;
+}
+
+#github {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+#art {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
