@@ -1,7 +1,8 @@
 body {
     height: 200px;
     background-color: rgb(255, 209, 243); /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, rgb(248, 212, 212), #c5edff);
+    background-image: url(img/cherry_background.png);
+    text-align: center;
 }
 
 header {
